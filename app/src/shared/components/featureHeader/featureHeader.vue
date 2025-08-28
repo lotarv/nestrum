@@ -7,9 +7,9 @@ const props = defineProps<{
 const router = useRouter()
 </script>
 <template>
+    <button class="abolsute left-0 text-white text-2xl" @click="router.back()"><ArrowLeft/></button>
     <div class="flex items-center w-full relative">
-        <button class="abolsute left-0 text-white text-2xl" @click="router.back()"><ArrowLeft/></button>
-        <h1 class="mx-auto">{{ featName }}</h1>
+        <h1 class="text-center flex-1 font-bold">{{ featName }}</h1>
     </div>
 </template>
 <style scoped></style>
