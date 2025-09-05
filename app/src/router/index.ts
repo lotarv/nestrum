@@ -11,6 +11,11 @@ const routes = [
         name: "stopwatch",
         component: () => import('@/features/stopwatch/Stopwatch.vue')
     },
+    {
+        path:"/timer",
+        name:"timer",
+        component: () => import('@/features/timer/Timer.vue')
+    }
 ]
 
 const router = createRouter({
