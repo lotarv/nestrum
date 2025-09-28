@@ -14,7 +14,7 @@ const router = useRouter()
                 <img src="./assets/timer.png" alt="">
                 <p>Timer</p>
             </div>
-            <div class="feature">
+            <div class="feature" @click="router.push('/calendar')">
                 <img src="./assets/calendar.png" alt="">
                 <p>Calendar</p>
             </div>

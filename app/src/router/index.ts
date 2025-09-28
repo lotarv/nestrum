@@ -15,6 +15,11 @@ const routes = [
         path:"/timer",
         name:"timer",
         component: () => import('@/features/timer/Timer.vue')
+    },
+    {
+        path:"/calendar",
+        name:"calendar",
+        component: () => import('@/features/someNewFeature/NewFeature.vue')
     }
 ]
 
